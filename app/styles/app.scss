@@ -1,0 +1,47 @@
+$darkgray: #5a5b60;
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h3 {
+  color: $darkgray;
+  font-family: Impact, sans-serif;
+  text-align: center;
+}
+
+.nav {
+  float: right;
+
+  li {
+    color: $darkgray;
+    display: inline-block;
+    float: left;
+    font-family: Impact, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    list-style-type: none;
+    padding-right: 30px;
+  }
+}
+
+.t-shirts {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+}
